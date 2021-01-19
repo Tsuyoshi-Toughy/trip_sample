@@ -41,7 +41,6 @@ end
     puts "#{people_num}名ですね。"
 
 total_price = price * people_num
-discounted_total_price = (total_price * 0.9).floor
 
 if people_num >= 5
     puts "5人以上なので10%割引になります。"
